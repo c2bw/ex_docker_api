@@ -35,7 +35,7 @@ defmodule DockerEngineAPI.Mixfile do
     [
       name: "ex_docker_api",
       source_url: @url,
-      files: ~w(.formatter.exs lib mix.exs README* LICENSE*),
+      files: ~w(.formatter.exs lib mix.exs CHANGELOG.md README* LICENSE*),
       licenses: ["MIT"],
       links: %{"GitHub" => @url}
     ]
