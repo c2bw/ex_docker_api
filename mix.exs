@@ -1,7 +1,7 @@
 defmodule DockerEngineAPI.Mixfile do
   use Mix.Project
 
-  @version "1.48.0"
+  @version "1.48.1"
   @url "https://github.com/c2bw/ex_docker_api"
 
   def(project) do
