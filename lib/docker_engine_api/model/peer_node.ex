@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PeerNode do
   Represents a peer-node in the swarm
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NodeID,
     :Addr

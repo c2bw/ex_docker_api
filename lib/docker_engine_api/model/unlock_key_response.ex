@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.UnlockKeyResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :UnlockKey
   ]

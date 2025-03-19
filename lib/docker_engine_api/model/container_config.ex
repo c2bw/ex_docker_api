@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerConfig do
   Configuration for a container that is portable between hosts.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Hostname,
     :Domainname,

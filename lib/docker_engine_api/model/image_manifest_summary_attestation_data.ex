@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageManifestSummaryAttestationData do
   The image data for the attestation manifest. This field is only populated when Kind is \"attestation\".
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :For
   ]

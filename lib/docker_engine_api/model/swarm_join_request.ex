@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmJoinRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ListenAddr,
     :AdvertiseAddr,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkSettings do
   NetworkSettings exposes the network settings in the API
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Bridge,
     :SandboxID,

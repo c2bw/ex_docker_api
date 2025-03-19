@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecRestartPolicy do
   Specification for the restart policy which applies to containers created as part of this service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Condition,
     :Delay,

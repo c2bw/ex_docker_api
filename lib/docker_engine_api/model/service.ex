@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Service do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Version,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.VolumeUsageData do
   Usage details about the volume. This information is used by the `GET /system/df` endpoint, and omitted in other endpoints.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Size,
     :RefCount

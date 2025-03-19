@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.DeviceRequest do
   A request for devices to be sent to device drivers
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Driver,
     :Count,

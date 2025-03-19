@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TlsInfo do
   Information about the issuer of leaf TLS certificates and the trusted root CA certificate.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :TrustRoot,
     :CertIssuerSubject,

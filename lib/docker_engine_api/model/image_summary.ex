@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageSummary do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :ParentId,

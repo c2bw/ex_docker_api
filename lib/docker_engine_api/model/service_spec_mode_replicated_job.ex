@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceSpecModeReplicatedJob do
   The mode used for services with a finite number of tasks that run to a completed state.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :MaxConcurrent,
     :TotalCompletions

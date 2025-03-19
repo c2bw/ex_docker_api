@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerSummaryNetworkSettings do
   Summary of the container's network settings
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Networks
   ]

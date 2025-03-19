@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceEndpoint do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Spec,
     :Ports,

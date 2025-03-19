@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemVersionComponentsInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Version,

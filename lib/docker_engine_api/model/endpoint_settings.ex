@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.EndpointSettings do
   Configuration for a network endpoint.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :IPAMConfig,
     :Links,

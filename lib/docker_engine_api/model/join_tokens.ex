@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.JoinTokens do
   JoinTokens contains the tokens workers and managers need to join the swarm.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Worker,
     :Manager

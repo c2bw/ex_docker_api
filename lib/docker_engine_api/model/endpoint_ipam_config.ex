@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.EndpointIpamConfig do
   EndpointIPAMConfig represents an endpoint's IPAM configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :IPv4Address,
     :IPv6Address,

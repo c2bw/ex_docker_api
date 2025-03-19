@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PortBinding do
   PortBinding represents a binding between a host IP address and a host port.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :HostIp,
     :HostPort

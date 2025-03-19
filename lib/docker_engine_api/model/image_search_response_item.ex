@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageSearchResponseItem do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :description,
     :is_official,

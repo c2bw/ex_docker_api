@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginConfigUser do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :UID,
     :GID

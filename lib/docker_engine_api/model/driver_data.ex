@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.DriverData do
   Information about the storage driver used to store the container's and image's filesystem.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Data

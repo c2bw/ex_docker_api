@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerPidsStats do
   PidsStats contains Linux-specific stats of a container's process-IDs (PIDs).  This type is Linux-specific and omitted for Windows containers.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :current,
     :limit

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.MountVolumeOptionsDriverConfig do
   Map of driver specific options
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Options

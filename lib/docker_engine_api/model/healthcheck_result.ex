@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.HealthcheckResult do
   HealthcheckResult stores information about a single run of a healthcheck probe
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Start,
     :End,

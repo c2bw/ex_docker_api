@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ErrorResponse do
   Represents an error.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :message
   ]

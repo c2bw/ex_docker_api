@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpec do
   User modifiable swarm configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Labels,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceCreateResponse do
   contains the information returned to a client on the creation of a new service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Warnings

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.MountBindOptions do
   Optional configuration for the `bind` type.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Propagation,
     :NonRecursive,

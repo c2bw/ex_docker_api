@@ -1,7 +1,7 @@
 defmodule DockerEngineAPI.Mixfile do
   use Mix.Project
 
-  @version "1.48.0"
+  @version "1.48.1"
   @url "https://github.com/c2bw/ex_docker_api"
 
   def(project) do
@@ -26,8 +26,7 @@ defmodule DockerEngineAPI.Mixfile do
     [
       {:ex_doc, "~> 0.37.3", only: :dev, runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
-      {:tesla, "~> 1.14.1"},
-      {:jason, "~> 1.4"}
+      {:tesla, "~> 1.14.1"}
     ]
   end
 
@@ -47,7 +46,7 @@ defmodule DockerEngineAPI.Mixfile do
       name: "ex_docker_api",
       canonical: "http://hexdocs.pm/ex_docker_api",
       source_url: @url,
-      extras: ["README.md", "LICENSE"]
+      extras: ["README.md", "CHANGELOG.md", "LICENSE"]
     ]
   end
 end

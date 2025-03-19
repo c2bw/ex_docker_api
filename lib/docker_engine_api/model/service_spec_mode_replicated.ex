@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceSpecModeReplicated do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Replicas
   ]

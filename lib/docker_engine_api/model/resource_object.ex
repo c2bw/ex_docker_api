@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ResourceObject do
   An object describing the resources which can be advertised by a node and requested by a task.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NanoCPUs,
     :MemoryBytes,

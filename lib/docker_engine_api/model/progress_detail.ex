@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ProgressDetail do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :current,
     :total

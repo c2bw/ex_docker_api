@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpecEncryptionConfig do
   Parameters related to encryption-at-rest.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :AutoLockManagers
   ]

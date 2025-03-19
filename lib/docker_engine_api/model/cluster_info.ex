@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterInfo do
   ClusterInfo represents information about the swarm as is returned by the \"/info\" endpoint. Join-tokens are not included.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Version,

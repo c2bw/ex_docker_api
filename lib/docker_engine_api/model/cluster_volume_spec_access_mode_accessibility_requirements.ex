@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolumeSpecAccessModeAccessibilityRequirem
   Requirements for the accessible topology of the volume. These fields are optional. For an in-depth description of what these fields mean, see the CSI specification.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Requisite,
     :Preferred

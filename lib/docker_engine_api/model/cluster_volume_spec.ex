@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolumeSpec do
   Cluster-specific options used to create the volume.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Group,
     :AccessMode

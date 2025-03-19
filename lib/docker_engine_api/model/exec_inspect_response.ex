@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ExecInspectResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :CanRemove,
     :DetachKeys,

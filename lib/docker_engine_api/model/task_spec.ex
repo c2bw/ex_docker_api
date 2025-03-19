@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpec do
   User modifiable task configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :PluginSpec,
     :ContainerSpec,

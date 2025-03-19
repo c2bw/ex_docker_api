@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.BuildCache do
   BuildCache contains information about a build cache record.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Parent,

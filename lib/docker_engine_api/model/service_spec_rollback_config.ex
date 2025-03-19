@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceSpecRollbackConfig do
   Specification for the rollback strategy of the service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Parallelism,
     :Delay,

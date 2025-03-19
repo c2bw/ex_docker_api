@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Plugin do
   A plugin for the Engine API
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :Name,

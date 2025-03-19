@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecContainerSpecDnsConfig do
   Specification for DNS related configurations in resolver configuration file (`resolv.conf`).
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Nameservers,
     :Search,

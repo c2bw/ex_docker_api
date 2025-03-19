@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerCreateResponse do
   OK response to ContainerCreate operation
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :Warnings

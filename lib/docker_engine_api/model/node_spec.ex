@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NodeSpec do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Labels,

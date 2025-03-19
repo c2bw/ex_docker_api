@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.MountPoint do
   MountPoint represents a mount point configuration inside the container. This is used for reporting the mountpoints in use by a container.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Type,
     :Name,

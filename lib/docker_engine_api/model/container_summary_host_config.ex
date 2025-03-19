@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerSummaryHostConfig do
   Summary of host-specific runtime information of the container. This is a reduced set of information in the container's \"HostConfig\" as available in the container \"inspect\" response.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NetworkMode,
     :Annotations

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.DistributionInspect do
   Describes the result obtained from contacting the registry to retrieve image metadata.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Descriptor,
     :Platforms

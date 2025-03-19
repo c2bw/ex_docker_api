@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemVersion do
   Response of Engine API: GET \"/version\"
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Platform,
     :Components,

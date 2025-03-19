@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.EndpointPortConfig do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Protocol,

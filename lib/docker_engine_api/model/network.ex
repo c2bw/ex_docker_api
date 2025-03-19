@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Network do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Id,

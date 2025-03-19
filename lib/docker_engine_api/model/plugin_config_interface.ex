@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginConfigInterface do
   The interface between Docker and the plugin
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Types,
     :Socket,

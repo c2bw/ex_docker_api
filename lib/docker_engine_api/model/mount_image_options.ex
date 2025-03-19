@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.MountImageOptions do
   Optional configuration for the `image` type.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Subpath
   ]

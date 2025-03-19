@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerThrottlingData do
   CPU throttling stats of the container.  This type is Linux-specific and omitted for Windows containers.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :periods,
     :throttled_periods,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Swarm do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Version,

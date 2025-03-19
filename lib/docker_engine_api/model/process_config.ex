@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ProcessConfig do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :privileged,
     :user,

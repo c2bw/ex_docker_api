@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.DeviceMapping do
   A device mapping between the host and container
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :PathOnHost,
     :PathInContainer,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerSummary do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :Names,

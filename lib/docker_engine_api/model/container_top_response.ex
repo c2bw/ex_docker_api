@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerTopResponse do
   Container \"top\" response.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Titles,
     :Processes

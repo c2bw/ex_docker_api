@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceEndpointVirtualIpsInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NetworkID,
     :Addr

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginConfigArgs do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Description,

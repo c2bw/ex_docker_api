@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PushImageInfo do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :error,
     :errorDetail,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkCreateRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Driver,

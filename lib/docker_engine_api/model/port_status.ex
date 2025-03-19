@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PortStatus do
   represents the port status of a task's host ports whose service has published host ports
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Ports
   ]

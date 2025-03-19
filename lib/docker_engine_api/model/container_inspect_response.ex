@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerInspectResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :Created,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolumeSpecAccessMode do
   Defines how the volume is used by tasks.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Scope,
     :Sharing,

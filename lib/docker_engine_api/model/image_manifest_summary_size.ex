@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageManifestSummarySize do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Total,
     :Content

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerUpdateRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :CpuShares,
     :Memory,

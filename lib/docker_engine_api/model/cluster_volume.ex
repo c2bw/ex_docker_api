@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolume do
   Options and information specific to, and only present on, Swarm CSI cluster volumes.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Version,

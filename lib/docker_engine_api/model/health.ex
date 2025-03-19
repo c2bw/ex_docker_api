@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Health do
   Health stores information about the container's healthcheck results.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Status,
     :FailingStreak,

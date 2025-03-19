@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerWaitExitError do
   container waiting error, if any
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Message
   ]

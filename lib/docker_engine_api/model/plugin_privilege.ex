@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginPrivilege do
   Describes a permission the user has to accept upon installing the plugin.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Description,

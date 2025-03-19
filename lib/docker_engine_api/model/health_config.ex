@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.HealthConfig do
   A test to perform to check that the container is healthy.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Test,
     :Interval,

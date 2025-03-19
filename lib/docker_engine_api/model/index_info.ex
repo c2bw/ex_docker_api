@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.IndexInfo do
   IndexInfo contains information about a registry.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Mirrors,

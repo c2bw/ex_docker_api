@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.RegistryServiceConfig do
   RegistryServiceConfig stores daemon registry services configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :AllowNondistributableArtifactsCIDRs,
     :AllowNondistributableArtifactsHostnames,

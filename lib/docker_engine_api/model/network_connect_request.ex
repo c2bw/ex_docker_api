@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkConnectRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Container,
     :EndpointConfig

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.GenericResourcesInnerNamedResourceSpec do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Kind,
     :Value

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmInfo do
   Represents generic information about swarm.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NodeID,
     :NodeAddr,

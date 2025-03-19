@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerStatsResponse do
   Statistics sample for a container.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :name,
     :id,

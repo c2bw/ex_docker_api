@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpecCaConfigExternalCasInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Protocol,
     :URL,

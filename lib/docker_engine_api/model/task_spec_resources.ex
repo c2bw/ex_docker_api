@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecResources do
   Resource requirements which apply to each individual container created as part of the service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Limits,
     :Reservations

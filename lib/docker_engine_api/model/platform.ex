@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Platform do
   Platform represents the platform (Arch/OS).
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Architecture,
     :OS

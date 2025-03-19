@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.EventMessage do
   EventMessage represents the information an event contains.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Type,
     :Action,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageInspectRootFs do
   Information about the image's RootFS, including the layer IDs.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Type,
     :Layers

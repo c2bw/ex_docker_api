@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceSpecMode do
   Scheduling mode for the service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Replicated,
     :Global,

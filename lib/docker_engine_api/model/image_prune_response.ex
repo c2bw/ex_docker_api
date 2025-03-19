@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImagePruneResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ImagesDeleted,
     :SpaceReclaimed
