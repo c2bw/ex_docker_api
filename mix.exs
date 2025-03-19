@@ -46,7 +46,7 @@ defmodule DockerEngineAPI.Mixfile do
       name: "ex_docker_api",
       canonical: "http://hexdocs.pm/ex_docker_api",
       source_url: @url,
-      extras: ["README.md", "LICENSE"]
+      extras: ["README.md", "CHANGELOG.md", "LICENSE"]
     ]
   end
 end
