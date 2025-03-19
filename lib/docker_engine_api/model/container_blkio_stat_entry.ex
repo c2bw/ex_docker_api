@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerBlkioStatEntry do
   Blkio stats entry.  This type is Linux-specific and omitted for Windows containers.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :major,
     :minor,

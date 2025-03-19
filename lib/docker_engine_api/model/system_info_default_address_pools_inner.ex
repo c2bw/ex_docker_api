@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemInfoDefaultAddressPoolsInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Base,
     :Size

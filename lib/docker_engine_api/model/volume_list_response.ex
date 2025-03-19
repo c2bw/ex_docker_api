@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.VolumeListResponse do
   Volume list response
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Volumes,
     :Warnings

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageConfig do
   Configuration of the image. These fields are used as defaults when starting a container from the image.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Hostname,
     :Domainname,

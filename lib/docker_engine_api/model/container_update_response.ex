@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerUpdateResponse do
   Response for a successful container-update.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Warnings
   ]

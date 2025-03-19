@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerCpuStats do
   CPU related info of the container
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :cpu_usage,
     :system_cpu_usage,

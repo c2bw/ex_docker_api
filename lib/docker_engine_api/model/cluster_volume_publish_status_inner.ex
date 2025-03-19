@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolumePublishStatusInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NodeID,
     :State,

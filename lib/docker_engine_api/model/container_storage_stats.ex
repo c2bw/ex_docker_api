@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerStorageStats do
   StorageStats is the disk I/O stats for read/write on Windows.  This type is Windows-specific and omitted for Linux containers.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :read_count_normalized,
     :read_size_bytes,

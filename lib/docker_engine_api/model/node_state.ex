@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NodeState do
   NodeState represents the state of a node.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
 
   ]

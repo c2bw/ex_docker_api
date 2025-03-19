@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginSettings do
   Settings that can be modified by users.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Mounts,
     :Env,

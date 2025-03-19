@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemAuthResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Status,
     :IdentityToken

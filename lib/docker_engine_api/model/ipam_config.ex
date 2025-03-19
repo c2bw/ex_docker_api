@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.IpamConfig do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Subnet,
     :IPRange,

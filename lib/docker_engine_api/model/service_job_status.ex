@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceJobStatus do
   The status of the service when it is in one of ReplicatedJob or GlobalJob modes. Absent on Replicated and Global mode services. The JobIteration is an ObjectVersion, but unlike the Service's version, does not need to be sent with an update request.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :JobIteration,
     :LastExecution

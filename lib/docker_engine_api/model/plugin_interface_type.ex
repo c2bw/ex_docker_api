@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginInterfaceType do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Prefix,
     :Capability,

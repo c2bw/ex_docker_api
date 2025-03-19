@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NodeStatus do
   NodeStatus represents the status of a node.  It provides the current status of the node, as seen by the manager.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :State,
     :Message,

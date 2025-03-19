@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkDisconnectRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Container,
     :Force

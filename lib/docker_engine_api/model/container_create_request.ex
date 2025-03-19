@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerCreateRequest do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Hostname,
     :Domainname,

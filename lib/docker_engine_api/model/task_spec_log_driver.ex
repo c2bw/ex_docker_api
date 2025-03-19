@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecLogDriver do
   Specifies the log driver to use for tasks created from this spec. If not present, the default one for the swarm will be used, finally falling back to the engine default if not specified.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Options

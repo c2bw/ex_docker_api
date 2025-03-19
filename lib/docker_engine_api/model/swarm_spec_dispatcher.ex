@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpecDispatcher do
   Dispatcher configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :HeartbeatPeriod
   ]

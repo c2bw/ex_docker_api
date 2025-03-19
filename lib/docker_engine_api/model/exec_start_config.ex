@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ExecStartConfig do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Detach,
     :Tty,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageDeleteResponseItem do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Untagged,
     :Deleted

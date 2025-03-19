@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemDataUsageResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :LayersSize,
     :Images,

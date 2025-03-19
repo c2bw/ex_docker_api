@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ErrorDetail do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :code,
     :message

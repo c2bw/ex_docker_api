@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.OciPlatform do
   Describes the platform which the image in the manifest runs on, as defined in the [OCI Image Index Specification](https://github.com/opencontainers/image-spec/blob/v1.0.1/image-index.md).
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :architecture,
     :os,

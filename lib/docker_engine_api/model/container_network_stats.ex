@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerNetworkStats do
   Aggregates the network stats of one container
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :rx_bytes,
     :rx_packets,

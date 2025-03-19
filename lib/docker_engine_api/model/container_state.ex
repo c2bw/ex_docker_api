@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerState do
   ContainerState stores container's running state. It's part of ContainerJSONBase and will be returned by the \"inspect\" command.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Status,
     :Running,

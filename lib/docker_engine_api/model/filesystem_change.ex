@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.FilesystemChange do
   Change in the container's filesystem.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Path,
     :Kind

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Runtime do
   Runtime describes an [OCI compliant](https://github.com/opencontainers/runtime-spec) runtime.  The runtime is invoked by the daemon via the `containerd` daemon. OCI runtimes act as an interface to the Linux kernel namespaces, cgroups, and SELinux.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :path,
     :runtimeArgs,

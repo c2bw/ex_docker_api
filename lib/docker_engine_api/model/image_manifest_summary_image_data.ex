@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageManifestSummaryImageData do
   The image data for the image manifest. This field is only populated when Kind is \"image\".
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Platform,
     :Containers,

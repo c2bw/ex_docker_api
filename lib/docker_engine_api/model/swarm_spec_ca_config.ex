@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpecCaConfig do
   CA configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NodeCertExpiry,
     :ExternalCAs,

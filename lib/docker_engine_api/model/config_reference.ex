@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ConfigReference do
   The config-only network source to provide the configuration for this network.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Network
   ]

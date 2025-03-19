@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecContainerSpecPrivileges do
   Security options for the container
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :CredentialSpec,
     :SELinuxContext,

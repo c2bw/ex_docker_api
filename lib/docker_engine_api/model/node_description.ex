@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NodeDescription do
   NodeDescription encapsulates the properties of the Node as reported by the agent.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Hostname,
     :Platform,

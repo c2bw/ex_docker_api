@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SwarmSpecOrchestration do
   Orchestration configuration.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :TaskHistoryRetentionLimit
   ]

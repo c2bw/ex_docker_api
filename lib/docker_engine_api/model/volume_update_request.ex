@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.VolumeUpdateRequest do
   Volume configuration
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Spec
   ]

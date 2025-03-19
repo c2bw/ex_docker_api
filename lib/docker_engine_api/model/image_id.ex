@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageId do
   Image ID or Digest
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID
   ]

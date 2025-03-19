@@ -7,12 +7,12 @@ defmodule DockerEngineAPI.Deserializer do
   """
 
   def json_decode(json) do
-    Jason.decode(json)
+    JSON.decode(json)
   end
 
   def json_decode(json, module) do
     json
-    |> Jason.decode()
+    |> JSON.decode()
     |> case do
       {:ok, decoded} -> {:ok, to_struct(decoded, module)}
       {:error, _} = error -> error

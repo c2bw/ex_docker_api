@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkAttachmentConfig do
   Specifies how a service should be attached to a particular network.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Target,
     :Aliases,

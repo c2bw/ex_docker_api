@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.TaskSpecPlacementPreferencesInnerSpread do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :SpreadDescriptor
   ]

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.VolumeCreateOptions do
   Volume configuration
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Driver,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerBlkioStats do
   BlkioStats stores all IO service stats for data read and write.  This type is Linux-specific and holds many fields that are specific to cgroups v1. On a cgroup v2 host, all fields other than `io_service_bytes_recursive` are omitted or `null`.  This type is only populated on Linux and omitted for Windows containers.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :io_service_bytes_recursive,
     :io_serviced_recursive,

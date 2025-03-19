@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.IdResponse do
   Response to an API call that returns just an Id
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id
   ]

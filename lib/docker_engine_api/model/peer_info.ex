@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PeerInfo do
   PeerInfo represents one peer of an overlay network.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :IP

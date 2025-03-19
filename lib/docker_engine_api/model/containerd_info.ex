@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerdInfo do
   Information for connecting to the containerd instance that is used by the daemon. This is included for debugging purposes only.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Address,
     :Namespaces

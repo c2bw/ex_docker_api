@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ServiceSpec do
   User modifiable configuration for a service.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Labels,

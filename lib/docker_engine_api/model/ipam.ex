@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Ipam do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Driver,
     :Config,

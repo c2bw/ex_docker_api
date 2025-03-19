@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.CreateImageInfo do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :id,
     :error,

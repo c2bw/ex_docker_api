@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SecretSpec do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Name,
     :Labels,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ResourcesBlkioWeightDeviceInner do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Path,
     :Weight

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkingConfig do
   NetworkingConfig represents the container's networking configuration for each of its interfaces. It is used for the networking configs specified in the `docker create` and `docker network connect` commands.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :EndpointsConfig
   ]

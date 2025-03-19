@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkPruneResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :NetworksDeleted
   ]

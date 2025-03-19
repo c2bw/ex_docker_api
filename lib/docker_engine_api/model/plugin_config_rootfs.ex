@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.PluginConfigRootfs do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :type,
     :diff_ids

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageInspectMetadata do
   Additional metadata of the image in the local cache. This information is local to the daemon, and not part of the image itself.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :LastTagTime
   ]

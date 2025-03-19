@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerPruneResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ContainersDeleted,
     :SpaceReclaimed

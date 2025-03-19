@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.Mount do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Target,
     :Source,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.AuthConfig do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :username,
     :password,

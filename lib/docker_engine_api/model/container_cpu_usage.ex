@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerCpuUsage do
   All CPU stats aggregated since container inception.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :total_usage,
     :percpu_usage,

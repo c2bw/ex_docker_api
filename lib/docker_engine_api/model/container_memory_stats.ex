@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ContainerMemoryStats do
   Aggregates all memory stats since container inception on Linux. Windows returns stats for commit and private working set only.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :usage,
     :max_usage,

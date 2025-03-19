@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ImageManifestSummary do
   ImageManifestSummary represents a summary of an image manifest.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Descriptor,

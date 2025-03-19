@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.VolumePruneResponse do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :VolumesDeleted,
     :SpaceReclaimed

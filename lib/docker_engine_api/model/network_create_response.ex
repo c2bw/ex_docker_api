@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.NetworkCreateResponse do
   OK response to NetworkCreate operation
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :Id,
     :Warning

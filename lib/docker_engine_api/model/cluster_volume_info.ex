@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.ClusterVolumeInfo do
   Information about the global status of the volume.
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :CapacityBytes,
     :VolumeContext,

@@ -6,7 +6,7 @@ defmodule DockerEngineAPI.Model.SystemInfo do
 
   """
 
-  @derive Jason.Encoder
+  @derive JSON.Encoder
   defstruct [
     :ID,
     :Containers,
