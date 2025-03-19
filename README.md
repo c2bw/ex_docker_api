@@ -4,7 +4,7 @@
 
 The Engine API is an HTTP API served by Docker Engine. It is the API the Docker client uses to communicate with the Engine, so everything the Docker client can do can be done with the API.
 
-_Most of the client&#39;s commands map directly to API endpoints (e.g. &#x60;docker ps&#x60; is &#x60;GET /containers/json&#x60;). The notable exception is running containers, which consists of several API calls._
+_Most of the client's commands map directly to API endpoints (e.g. `docker ps` is `GET /containers/json`). The notable exception is running containers, which consists of several API calls._
 
 ## Installation
 
