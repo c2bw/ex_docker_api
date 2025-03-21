@@ -16,6 +16,11 @@ def deps do
 end
 ```
 
+**Version `1.48.0` is the latest with support for `Jason`.**
+
+Since version `1.48.1` the library uses the built-in `JSON` module, introduced in Elixir `1.18`.
+
+
 ## Configuration
 
 You can override the URL of your server (e.g. if you have a separate development and production server in your
@@ -34,9 +39,9 @@ client = DockerEngineAPI.Connection.new(base_url: "http://localhost/v1.48")
 
 A custom `timeout` can be set:
 ```elixir
-# when calling `DockerEngineAPI.Connection.new/1`
+# When calling `DockerEngineAPI.Connection.new/1`
 client = DockerEngineAPI.Connection.new(timeout: 50_000)
-# in the configuration file (example: runtime.exs)
+# In the configuration file (For example in runtime.exs)
 config :ex_docker_api, timeout: 50_000
 ```
 
