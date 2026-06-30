@@ -12,7 +12,7 @@ The package can be installed by adding `ex_docker_api` to your list of dependenc
 
 ```elixir
 def deps do
-  [{:ex_docker_api, "~> 1.48"}]
+  [{:ex_docker_api, "~> 1.55"}]
 end
 ```
 
@@ -61,7 +61,7 @@ The API uses standard HTTP status codes to indicate the success or failure of th
 
 ### Versioning
 
-The API is usually changed in each release, so API calls are versioned to ensure that clients don't break. To lock to a specific version of the API, you prefix the URL with its version. For example, call `/v1.30/info` to use the v1.30 version of the `/info` endpoint. If the API version specified in the URL is not supported by the daemon, a HTTP `400 Bad Request` error message is returned. If you omit the version-prefix, the current version of the API (v1.48) is used. For example, calling `/info` is the same as calling `/v1.48/info`. Using the API without a version-prefix is deprecated and will be removed in a future release.
+The API is usually changed in each release, so API calls are versioned to ensure that clients don't break. To lock to a specific version of the API, you prefix the URL with its version. For example, call `/v1.30/info` to use the v1.30 version of the `/info` endpoint. If the API version specified in the URL is not supported by the daemon, a HTTP `400 Bad Request` error message is returned. If you omit the version-prefix, the current version of the API (v1.55) is used. For example, calling `/info` is the same as calling `/v1.55/info`. Using the API without a version-prefix is deprecated and will be removed in a future release.
 
 Engine releases in the near future should support this version of the API, so your client will continue to work even if it is talking to a newer Engine. The API uses an open schema model, which means the server may add extra properties to responses. Likewise, the server will ignore any extra query parameters and request body properties. When you write clients, you need to ignore additional properties in responses to ensure they do not break when talking to newer daemons.
 
@@ -90,5 +90,5 @@ If you have already got an identity token from the `/auth` endpoint, you can jus
 
 ## Credits
 
-This library was generated using `Docker Engine API` [`v1.48`](https://docs.docker.com/reference/api/engine/version/v1.48/) 
+This library was generated using `Docker Engine API` [`v1.55`](https://docs.docker.com/reference/api/engine/version/v1.55/) 
 and [`OpenAPI Generator`](https://github.com/OpenAPITools/openapi-generator)

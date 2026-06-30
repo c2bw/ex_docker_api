@@ -1,14 +1,14 @@
 defmodule DockerEngineAPI.Mixfile do
   use Mix.Project
 
-  @version "1.48.1"
+  @version "1.55.0"
   @url "https://github.com/c2bw/ex_docker_api"
 
   def(project) do
     [
       app: :ex_docker_api,
       version: @version,
-      elixir: "~> 1.18",
+      elixir: "~> 1.20",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -26,7 +26,7 @@ defmodule DockerEngineAPI.Mixfile do
     [
       {:ex_doc, "~> 0.37.3", only: :dev, runtime: false},
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
-      {:tesla, "~> 1.14.1"}
+      {:tesla, "~> 1.20"}
     ]
   end
 
