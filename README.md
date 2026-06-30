@@ -27,14 +27,14 @@ You can override the URL of your server (e.g. if you have a separate development
 configuration files).
 
 ```elixir
-config :ex_docker_api, base_url: "http://localhost/v1.48"
+config :ex_docker_api, base_url: "http://localhost/v1.55"
 ```
 
 Multiple clients for the same API with different URLs can be created passing different `base_url`s when calling
 `DockerEngineAPI.Connection.new/1`:
 
 ```elixir
-client = DockerEngineAPI.Connection.new(base_url: "http://localhost/v1.48")
+client = DockerEngineAPI.Connection.new(base_url: "http://localhost/v1.55")
 ```
 
 A custom `timeout` can be set:
